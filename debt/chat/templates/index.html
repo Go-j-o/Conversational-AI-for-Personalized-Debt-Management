@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debtora - Your Personal Debt Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section with Logo and Buttons -->
+    <header class="header">
+        <img src="media/images/logo.png" alt="Debtora Logo" class="logo">
+        <div class="header-buttons">
+            <button id="settings-btn" class="header-btn">Settings</button>
+            <button id="login-btn" class="header-btn">Login</button>
+            <button id="signup-btn" class="header-btn">Sign Up</button>
+        </div>
+    </header>
+
+    <!-- Main Chat Section -->
+    <main class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <div class="bot-message">
+                <p>Hello! How can I help you with your debt management today?</p>
+            </div>
+        </div>
+        <div class="input-container">
+            <textarea id="user-input" placeholder="Ask me anything..." rows="3"></textarea>
+            <button id="send-btn" class="send-btn">Send</button>
+        </div>
+        <div id="loading" class="loading-spinner" style="display:none;"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
