@@ -7,7 +7,6 @@
 
 - Features **🧮 Tracks and analyzes income, debt, and expenses 🎯 Sets and manages financial goals 📊 Generates personalized financial advice 🤖 Smart conversational interface 🔐 Privacy-first design – your data stays with you**
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
